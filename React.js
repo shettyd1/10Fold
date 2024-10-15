@@ -1,3 +1,5 @@
+import logo from './logo.svg';
+import './App.css';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 
@@ -5,6 +7,18 @@ const myFirstElement = <h1> Hello!<h1>
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(myFirstElement);
+
+function App() {
+    return (
+            <div className="App">
+            <header className="App-header"
+            
+            
+            
+            )
+    
+    
+}
 
 function button() {
     return (
